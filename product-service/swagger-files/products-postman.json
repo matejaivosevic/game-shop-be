@@ -1,0 +1,28 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "version" : "2022-12-07T11:59:42Z",
+    "title" : "product-service-dev"
+  },
+  "host" : "xck7eiwcuj.execute-api.us-east-1.amazonaws.com",
+  "basePath" : "/dev",
+  "schemes" : [ "https" ],
+  "paths" : {
+    "/products" : {
+      "get" : {
+        "responses" : { }
+      }
+    },
+    "/products/{id}" : {
+      "get" : {
+        "parameters" : [ {
+          "name" : "id",
+          "in" : "path",
+          "required" : true,
+          "type" : "string"
+        } ],
+        "responses" : { }
+      }
+    }
+  }
+}
