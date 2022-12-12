@@ -5,5 +5,5 @@ export const getProductsMockData = () => {
 }
 
 export const getProductsByIdMockData = (id) => {
-  return data.products.filter(x => x.id === id)[0];
+  return data.products.filter(x => x.id === id);
 };
