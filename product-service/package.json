@@ -12,9 +12,13 @@
     "node": ">=14.15.0"
   },
   "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.229.0",
     "@middy/core": "^3.4.0",
     "@middy/http-json-body-parser": "^3.4.0",
-    "http-status": "^1.5.3"
+    "aws-sdk": "^2.1259.0",
+    "http-status": "^1.5.3",
+    "joi": "^17.7.0",
+    "uuid": "^9.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.5",
